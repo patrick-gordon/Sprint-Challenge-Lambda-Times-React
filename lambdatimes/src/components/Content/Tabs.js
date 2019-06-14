@@ -11,7 +11,7 @@ const Tabs = ({tabs,selectedTab, selectTabHandler}) => {
         <span className="title">TRENDING TOPICS:</span>
         {tabs.map(tab => {
           return(
-            <tab
+            <Tab
               selectTabHandler={selectTabHandler}
               selectedTab={selectedTab}
               tab={tab}
