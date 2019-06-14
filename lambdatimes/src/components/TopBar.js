@@ -41,7 +41,7 @@ const ContainerLeft = styled.div`
 
 const ContainerCenter = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   flex: 3;
